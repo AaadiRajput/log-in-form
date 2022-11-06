@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    /* background: url(bgimg.jpg)no-repeat center center fixed;
+    background-size: cover; */
+}
+
+.img {
+    position: fixed;
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    filter: blur(8px);
+    transition: 0.5s;   
+}
+
+.img:hover{
+    filter: blur(0px);
+    transition: 0.5s;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.container h1 {
+    color: black;
+    font-size: 40px;
+    border-bottom: 5px solid brown;
+    margin-bottom: 23px;
+    padding: 10px 0px;
+}
+
+.container h3{
+    color: black;
+    margin: 0px;
+}
+
+.box{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.box i{
+    color: black;
+}
+
+.box input{
+    background: none;
+    width: 75%;
+    margin: 5px 10px;
+    padding: 5px 12px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid brown;
+}
+
+.btn {
+    background: none;
+    font-family: bold;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 15px 150px;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    font: bolder;
+    background-color: brown;
+    
+}
+
